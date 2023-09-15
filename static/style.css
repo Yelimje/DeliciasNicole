@@ -6,13 +6,21 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    box-shadow: inset 1px 2px 0 rgb(210, 210, 210);
 }
+
+
 
 /* barra de navegacion ------------------------------------- */
 
+.mini-logo{
+    display: flex;
+    justify-content: center;
+}
+
 .navbar{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 0.9fr 1fr 1fr;
 }
 
 .mini-navbar{
@@ -23,39 +31,49 @@
 .link-navbar{
     color: #DB2E86;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 120%;
     font-family: Work Sans;
 }
 
 .btn-pink{
-    display: inline-block;
+    padding: 8px 15px 8px 15px;
     font-family: Work Sans;
-    letter-spacing: 1px;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0px;
+    font-size: 110%;
     color: #ffffff;
-    font-weight: 700;
-    background: #DB2E86;
-    padding: 15px 20px 15px 20px;
+    background:#DB2E86;
+    font-weight: 600;
     text-decoration: none;
-    font-size: 1rem;
-    
+
 }
   
-.btn-pink:hover {
-    background: #d233a5;
-    text-decoration: none;
+.btn-pink:hover{
+    color: #DB2E86;
+    background-color: #fff;
 }
 
 /* titulos ------------------------------------------------- */
 
-/* h5{
-    color:#d15093;
+h5{
+    color: #F47DB3;
     font-weight: 1000;
     font-size: 20px;
     font-family: Work Sans;
+    display: block;
+}
+
+.titles{
+    display: grid;
+    grid-template-rows:0.1fr 1fr;
+    
+
+    
+    justify-content: center;
+}
+
+.mini-titles{
+    display: grid;
+    grid-template-rows: ;
 }
 
 .principal-title{
@@ -81,7 +99,7 @@
 
 .subtitle-p{
     font-size: 1rem; 
-    width: 55%;
+    width: 60%;
 }
 
 .choco-cake{
@@ -91,7 +109,12 @@
     top: 247px;
 }
 
-*/
+
+
+
+/* RESPONSIVE */
+
+
 
 @media (max-width: 770px){
 
@@ -99,38 +122,64 @@
     display: none;
 }
 
-.mini-navbar{
-    grid-template-columns: 1fr 1fr;
+.navbar{
+    grid-template-columns: 0.8fr 1fr 1fr;
 }
 
-.btn-pink{
-    padding: 10px 15px 10px 15px;
+.mini-navbar{
+    grid-template-columns: 1fr 1fr;
 }
 
 .container{
     margin: auto;
 }
+
+.btn-pink-navbar{
+    display: flex; 
+    justify-content: end;
+}
 } 
 
-@media (max-width: 570px){
+@media (max-width: 480px){
+
+.btn-pink-navbar{
+    display: flex; 
+    justify-content: center;
+}
+
+.navbar{
+    grid-template-columns: 1.5fr 1fr;
+}
 
 .mini-logo{
     display: none;
 }
 
-.navbar{
-    grid-template-columns: 1.5fr 1fr;
-    font-size: 12px;
+.link-navbar{
+    font-size: 100%;
+
 }
 
 .btn-pink{
-    font-size: 12px;
-    padding: 5px 10px 5px 10px;
-    width: 80%;
+    font-size: 100%;
+    font-weight: 200;
+    padding: 0;
+    background: none;
+    color: #DB2E86;
 }
 
-
 } 
+
+@media only screen and (min-width: 480px) and (max-width: 575px ){
+
+.btn-pink-navbar{
+    justify-content: center;
+}
+
+.mini-logo{
+    justify-content: center;
+}
+}
 
 
 
