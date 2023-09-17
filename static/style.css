@@ -1,12 +1,8 @@
 
-
-
-.bg-rosa{
+.principal-bg{
     background-image: url("images/bg_pink_div.png");
-    background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    box-shadow: inset 1px 2px 0 rgb(210, 210, 210);
 }
 
 
@@ -26,6 +22,7 @@
 .mini-navbar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
 }
 
 .link-navbar{
@@ -52,31 +49,41 @@
     background-color: #fff;
 }
 
+.nv{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nv:hover{
+    border-bottom-color: #DB2E86;
+    border-bottom-style: solid;
+}
+
 /* titulos ------------------------------------------------- */
 
 h5{
-    color: #F47DB3;
+    color: #DB2E86;
     font-weight: 1000;
     font-size: 20px;
     font-family: Work Sans;
     display: block;
 }
 
-.titles{
-    display: grid;
-    grid-template-rows:0.1fr 1fr;
-    
-
-    
-    justify-content: center;
+.mini-title{
+    display: block;
 }
 
-.mini-titles{
+.titles{
     display: grid;
-    grid-template-rows: ;
+    grid-template-columns: 0.2fr 1.5fr;
+    justify-content: center; 
+    width: 100%;   
 }
 
 .principal-title{
+    display: inline;
     font-weight: 800;
     font-size: 320%;
     font-family: 'Chivo', sans-serif;
@@ -88,25 +95,21 @@ h5{
 
 
 .middle-logo{
-    position: absolute;
+    display: inline;
     width: 220px;
     height: 200px;
-    top: 530px;
     left: 0;
     right: 0;
     margin: auto;
 }
 
 .subtitle-p{
-    font-size: 1rem; 
+    font-size: 120%; 
     width: 60%;
 }
 
 .choco-cake{
-    position: absolute;
-    width: 32%;
-    right: 0px; 
-    top: 247px;
+
 }
 
 
