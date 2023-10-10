@@ -1,8 +1,16 @@
 
+/*........................................................DIV 1...........................................................*/
+
 .principal-bg{
     background-image: url("images/bg_pink_div.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.div-heart{
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
 
 
@@ -45,8 +53,8 @@
 }
   
 .btn-pink:hover{
-    color: #DB2E86;
-    background-color: #fff;
+    color: #fefefe;
+    background-color: #d678d2;
 }
 
 .nv{
@@ -61,14 +69,14 @@
     border-bottom-style: solid;
 }
 
-/* titulos ------------------------------------------------- */
+/* TITULOS ------------------------------------------------- */
 
 h5{
     color: #DB2E86;
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 150%;
     font-family: Work Sans;
-    display: block;
+    display: inline;
 }
 
 .mini-title{
@@ -77,7 +85,7 @@ h5{
 
 .titles{
     display: grid;
-    grid-template-columns: 0.2fr 1.5fr;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
     justify-content: center; 
     width: 100%;   
 }
@@ -85,7 +93,7 @@ h5{
 .principal-title{
     display: inline;
     font-weight: 800;
-    font-size: 320%;
+    font-size: 350%;
     font-family: 'Chivo', sans-serif;
 }
 
@@ -95,31 +103,189 @@ h5{
 
 
 .middle-logo{
-    display: inline;
-    width: 220px;
+    display: flex;
     height: 200px;
-    left: 0;
-    right: 0;
     margin: auto;
+    position: relative;
+    top: -100px;
 }
 
 .subtitle-p{
     font-size: 120%; 
+    line-height: normal;
+}
+
+.mini-heart{
+    width: 20px; 
+    height: 20px; 
+    display: inline; 
+}
+
+.menu-btn{
+    padding: 15px 40px 15px 40px ;
+}
+
+
+
+
+
+
+
+/*........................................................INFORMACION...........................................................*/
+
+
+
+
+
+
+.div-info{
+    background-image: url("images/fondo-ponques.jpg");  
+}
+
+.grid-info{
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    justify-content: center;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+     
+}
+
+.green{
+    font-weight: 600;
+    color: #ACD1D1;
+}
+
+
+.green-2{
+    color: #08BFBF;
+    font-weight: 700;
+}
+
+h1{
+    display: inline;
+}
+
+.mini-info{
+    width: 70%;
+}
+
+
+
+
+
+
+/*........................................................RESEÑAS..........................................................*/
+
+
+
+
+
+.div-resenas{
+    background-image: url("images/bg-green.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.2fr;
+}
+
+.pastel-utencilios{
+    height: 500px;
+}
+
+.mini-resenas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.bg-cg{
+    background-color: #FFFFFF;
+}
+
+.carousel{
+    display: none;
+}
+
+.carousel-item{
+    text-align: -webkit-center;
+}
+
+.mini-info-carousel{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    text-align: justify;
+}
+
+.carousel-control-next-icon {
+    background-image: url("images/flecha-derecha.png");
+    height: 25px;
+    width: 15px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("images/flecha-izquierda.png");
+    height: 25px;
+    width: 15px;
+}
+
+
+.grid-info{
+    position: relative;
+    top: -35px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #26b07b;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+
+
+
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+@media (min-width: 1700px){
+
+.mini-info{
     width: 60%;
 }
+}
 
-.choco-cake{
+
+@media (max-width: 1200px){
+
+.carousel{
+    display: inline;
+}
+
+.info{
+    display: none;
+}
 
 }
 
 
 
 
-/* RESPONSIVE */
+@media (max-width: 765px){
 
+/* ---------DIV 1------------ */
 
-
-@media (max-width: 770px){
+.menu-btn{
+    padding: 10px 30px 10px 35px ;
+}    
 
 .navbar-reseñas{
     display: none;
@@ -127,6 +293,7 @@ h5{
 
 .navbar{
     grid-template-columns: 0.8fr 1fr 1fr;
+    padding: 0px;
 }
 
 .mini-navbar{
@@ -137,17 +304,88 @@ h5{
     margin: auto;
 }
 
-.btn-pink-navbar{
-    display: flex; 
-    justify-content: end;
+.mini-navbar{
+  height: auto;
 }
-} 
 
-@media (max-width: 480px){
+
 
 .btn-pink-navbar{
     display: flex; 
     justify-content: center;
+    align-items: center;
+}
+
+.mini-heart{
+    width: 12px; 
+    height: 12px; 
+}
+
+.middle-logo{
+    height: 140px;
+    top: -70px;
+}
+
+
+h5{
+    font-size: initial;
+}
+
+.principal-title{
+    font-size: 250%;
+}
+
+.titles{
+    grid-template-columns: 0.1fr 2fr;
+}
+
+.subtitle-p{
+    font-size: 100%;
+    width: 80%;
+}
+
+
+
+/* ---------DIV 2------------ */
+
+.pastel-utencilios{
+    display: none;
+}
+
+
+.grid-info{
+    display: flex;
+}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 480px){
+
+/* ---------DIV 1------------ */
+
+.middle-logo{
+    height: 100px;
+    top: -50px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.principal-title{
+    font-size: 160%;
+}    
+
+.btn-pink-navbar{
+    display: flex; 
+    justify-content: center;
+    padding: 10%;
 }
 
 .navbar{
@@ -171,18 +409,51 @@ h5{
     color: #DB2E86;
 }
 
-} 
+.subtitle-p{
+    width: 90%;
+    font-size: 70%; 
+}
+
+.p-info{
+    font-size: 70%;
+}
+
+}
+
 
 @media only screen and (min-width: 480px) and (max-width: 575px ){
 
+/* ---------DIV 1------------ */
+
 .btn-pink-navbar{
+    font-size: 100%;
+    font-weight: 200;
+    padding: 0;
+    background: none;
+    color: #DB2E86;
     justify-content: center;
+}
+
+.btn-pink:hover{
+    background-color: transparent;
+    color: #DB2E86;
 }
 
 .mini-logo{
     justify-content: center;
 }
 }
+/* ---------DIV 2------------ */
 
 
+@media (max-width: 319px){
 
+/* ---------DIV 1------------ */
+
+.principal-title{
+    font-size: 140%;
+}
+
+}
+
+/* ---------DIV 2------------ */
