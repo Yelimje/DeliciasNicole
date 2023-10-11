@@ -139,7 +139,7 @@ h5{
 
 
 .div-info{
-    background-image: url("images/fondo-ponques.jpg");  
+    background-image: url("images/fondo-ponque.jpg");  
 }
 
 .grid-info{
@@ -173,36 +173,9 @@ h1{
 
 .mini-info{
     width: 70%;
+    text-align: justify;
 }
 
-
-
-
-
-
-/*........................................................RESEÑAS..........................................................*/
-
-
-
-
-
-.div-resenas{
-    background-image: url("images/bg-green.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: 1fr 3fr 0.2fr;
-}
-
-.pastel-utencilios{
-    height: 500px;
-}
-
-.mini-resenas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
 
 .bg-cg{
     background-color: #FFFFFF;
@@ -211,6 +184,7 @@ h1{
 .carousel{
     display: none;
 }
+
 
 .carousel-item{
     text-align: -webkit-center;
@@ -254,7 +228,83 @@ h1{
 
 
 
+
+/*........................................................RESEÑAS..........................................................*/
+
+
+
+
+
+.div-resenas{
+    background-image: url("images/bg-green.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 3fr 0.2fr;
+}
+
+.pastel-utencilios{
+    height: 500px;
+}
+
+.mini-resenas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+
+
+
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+@media (max-width: 1200px){
+
+.green{
+    font-size: 80%;
+}    
+
+h1{
+    font-size: 160%;
+}
+
+.text-infos{
+    font-size: 80%;
+}
+
+.mini-info{
+    width: 85%;
+    text-align: justify;
+}
+
+.medio{
+    justify-self: center;
+}
+
+.derecha{
+    justify-self: right;
+}
+
+.izquierda{
+    justify-self: left;
+}
+}
+
+
+
+
+@media (min-width: 650px){
+
+
+}
+
+
+
+
 
 @media (min-width: 1700px){
 
@@ -264,24 +314,13 @@ h1{
 }
 
 
-@media (max-width: 1200px){
 
-.carousel{
-    display: inline;
-}
 
-.info{
-    display: none;
-}
-
-}
 
 
 
 
 @media (max-width: 765px){
-
-/* ---------DIV 1------------ */
 
 .menu-btn{
     padding: 10px 30px 10px 35px ;
@@ -344,30 +383,53 @@ h5{
     width: 80%;
 }
 
-
-
-/* ---------DIV 2------------ */
-
-.pastel-utencilios{
-    display: none;
-}
-
-
 .grid-info{
     display: flex;
 }
 
+.carousel{
+    display: inline;
+}
 
+.info{
+    display: none;
+}
+
+
+.pastel-utencilios{
+    height: 80%;
+    width: 100%;
+    top: -5%
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 @media (max-width: 480px){
-
-/* ---------DIV 1------------ */
 
 .middle-logo{
     height: 100px;
@@ -421,9 +483,28 @@ h5{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 480px) and (max-width: 575px ){
 
-/* ---------DIV 1------------ */
 
 .btn-pink-navbar{
     font-size: 100%;
@@ -443,12 +524,25 @@ h5{
     justify-content: center;
 }
 }
-/* ---------DIV 2------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 319px){
 
-/* ---------DIV 1------------ */
 
 .principal-title{
     font-size: 140%;
@@ -456,4 +550,3 @@ h5{
 
 }
 
-/* ---------DIV 2------------ */
