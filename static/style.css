@@ -2,8 +2,8 @@
 /*........................................................DIV 1...........................................................*/
 
 .principal-bg{
-    background-image: url("images/bg_pink_div.png");
-    background-size: 100% 100%;
+    background-image: url("images/bg.jpg");
+    background-size: 100% 150%;
     background-repeat: no-repeat;
 }
 
@@ -11,6 +11,13 @@
     display: flex;
     align-items: center;
     gap: 7px;
+}
+
+.card{
+    --bs-card-border-width: none;
+    width: 90%;
+    text-align: justify;
+    height: 250px;
 }
 
 
@@ -79,6 +86,7 @@ h5{
     display: inline;
 }
 
+
 .mini-title{
     display: block;
 }
@@ -113,6 +121,7 @@ h5{
 .subtitle-p{
     font-size: 120%; 
     line-height: normal;
+    width: 70%;
 }
 
 .mini-heart{
@@ -161,6 +170,21 @@ h5{
     color: #ACD1D1;
 }
 
+.green-p{
+    color: #DB2E86;
+    font-weight: 700;
+    font-size: 90%;
+    text-align: left;
+}
+
+.mini-img-woman{
+    width: 100%;
+}
+
+.resenas-grid{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
 
 .green-2{
     color: #08BFBF;
@@ -198,16 +222,18 @@ h1{
     text-align: justify;
 }
 
-.carousel-control-next-icon {
+.carousel-control-next-icon1 {
     background-image: url("images/flecha-derecha.png");
     height: 25px;
     width: 15px;
+    background-size: 100% 100%;
 }
 
-.carousel-control-prev-icon {
+.carousel-control-prev-icon1 {
     background-image: url("images/flecha-izquierda.png");
     height: 25px;
     width: 15px;
+    background-size: 100% 100%;
 }
 
 
@@ -240,11 +266,14 @@ h1{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: 1fr 3fr 0.2fr;
+    grid-template-columns: 0.5fr 3fr 0.2fr;
 }
 
 .pastel-utencilios{
-    height: 500px;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    top: -28%;
 }
 
 .mini-resenas{
@@ -253,6 +282,32 @@ h1{
     
 }
 
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.pink{
+    color: #DB2E86;
+    font-weight: 700;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.izquierda{
+    align-items: left;
+}
+
+.card-text:last-child {
+    font-size: 120%;
+}
 
 
 
@@ -260,9 +315,51 @@ h1{
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
+@media (max-width: 1000px){
 
+.pastel-utencilios{
+    height: 150px;
+    width: 100px;
+    position: relative;
+    top: -28%;
+}  
+
+
+}
 
 @media (max-width: 1200px){
+
+.card-title{
+    font-size: 120%;
+}
+
+.green-p{
+    font-size: 80%;
+}    
+
+.card{
+    height: 210px;
+}
+
+.card-text:last-child {
+    font-size: 100%;
+}
+
+
+.subtitle-p{
+    width: 75%;
+}
+
+.principal-bg{
+    background-image: url("images/bg-mid.jpg");
+    background-size: 115% 100%;
+}
+
+.pastel-utencilios{
+    top: -40%;
+    width: 265px;
+    height: 290px;
+}
 
 .green{
     font-size: 80%;
@@ -292,24 +389,31 @@ h1{
 .izquierda{
     justify-self: left;
 }
+
+
+.resenas-grid {
+    grid-template-columns: 0.15fr 1fr;
 }
 
-
-
-
-@media (min-width: 650px){
-
-
 }
-
-
-
 
 
 @media (min-width: 1700px){
 
 .mini-info{
     width: 60%;
+}
+
+.pastel-utencilios{
+    height: 470px;
+    width: 400px;
+    position: relative;
+    top: -28%;
+}
+
+.card{
+    width: 80%;
+    height: 300px;
 }
 }
 
@@ -321,6 +425,8 @@ h1{
 
 
 @media (max-width: 765px){
+
+   
 
 .menu-btn{
     padding: 10px 30px 10px 35px ;
@@ -398,9 +504,11 @@ h5{
 
 .pastel-utencilios{
     height: 80%;
-    width: 100%;
-    top: -5%
+    width: 140%;
+    top: -40%;
 }
+
+
 
 }
 
@@ -430,6 +538,11 @@ h5{
 
 
 @media (max-width: 480px){
+
+.principal-bg{
+    background-image: url("images/bg-mini.jpg");
+    background-size: 115% 100%;
+} 
 
 .middle-logo{
     height: 100px;
@@ -478,6 +591,12 @@ h5{
 
 .p-info{
     font-size: 70%;
+}
+
+
+.pastel-utencilios{
+    width: 160%;
+    top: -50%;
 }
 
 }
