@@ -13,13 +13,6 @@
     gap: 7px;
 }
 
-.card{
-    --bs-card-border-width: none;
-    width: 90%;
-    text-align: justify;
-    height: 250px;
-}
-
 
 
 /* barra de navegacion ------------------------------------- */
@@ -196,7 +189,7 @@ h1{
 }
 
 .mini-info{
-    width: 70%;
+    width: 80%;
     text-align: justify;
 }
 
@@ -265,15 +258,14 @@ h1{
     background-image: url("images/bg-green.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: 0.5fr 3fr 0.2fr;
+    height: 550px;
 }
 
 .pastel-utencilios{
-    height: 350px;
-    width: 300px;
-    position: relative;
-    top: -28%;
+    width: 50%;
+    position: absolute;
+    display: none;
+    
 }
 
 .mini-resenas{
@@ -286,6 +278,8 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    place-self: center;
+    gap: 3rem;
 }
 
 .pink{
@@ -302,48 +296,53 @@ h1{
 
 
 .izquierda{
-    align-items: left;
+    place-self: flex-start;
 }
 
-.card-text:last-child {
-    font-size: 120%;
+.derecha{
+    place-self: flex-end;
 }
 
 
+.espacio{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.card{
+    width: 455px; 
+    height: 15rem;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1.2fr 4fr;
+
+}
+
+.card-subtitle{
+    font-weight: 600;
+    color: #b5379c;
+}
+
+.woman{
+    width: 4rem;
+    justify-self: center;
+}
+
+
+.carousel3{
+    display: none;
+}
 
 
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
-@media (max-width: 1000px){
-
-.pastel-utencilios{
-    height: 150px;
-    width: 100px;
-    position: relative;
-    top: -28%;
-}  
-
-
-}
 
 @media (max-width: 1200px){
 
-.card-title{
-    font-size: 120%;
-}
 
 .green-p{
     font-size: 80%;
 }    
-
-.card{
-    height: 210px;
-}
-
-.card-text:last-child {
-    font-size: 100%;
-}
 
 
 .subtitle-p{
@@ -355,11 +354,6 @@ h1{
     background-size: 115% 100%;
 }
 
-.pastel-utencilios{
-    top: -40%;
-    width: 265px;
-    height: 290px;
-}
 
 .green{
     font-size: 80%;
@@ -378,53 +372,91 @@ h1{
     text-align: justify;
 }
 
-.medio{
-    justify-self: center;
+.texto{
+    font-size: 95%;
 }
 
-.derecha{
-    justify-self: right;
+.woman{
+    width: 3rem;
 }
 
-.izquierda{
-    justify-self: left;
+.card {
+    height: auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.div-resenas{
+    height: 500px;
+}
+
 }
 
 
-.resenas-grid {
-    grid-template-columns: 0.15fr 1fr;
-}
-
-}
-
-
-@media (min-width: 1700px){
+@media (min-width: 1600px){
 
 .mini-info{
-    width: 60%;
-}
-
-.pastel-utencilios{
-    height: 470px;
-    width: 400px;
-    position: relative;
-    top: -28%;
+    width: 70%;
 }
 
 .card{
-    width: 80%;
-    height: 300px;
+    width: 600px;
+    height: 17rem;
+}
+
+.subtitle-p{
+    font-size: 150%;
+}
+
+.link-navbar{
+    font-size: 150%;
+}
+
+.principal-title{
+    font-size: 380%;
+}
+
+
+.card-title{
+    font-size: 160%;
+}
+
+
+.texto{
+    font-size: 120%;
+}
+
+}
+
+
+
+@media (max-width: 1050px){
+
+
+.texto{
+    font-size: 90%;
+}
+
+.card-title{
+    font-size: 120%;
+}
+
+.card-subtitle{
+    font-size: 90%;
+}
+
+.card{
+    width: 100%;
+}
+
+.espacio{
+    grid-template-columns: 0.3fr 6fr 0.3fr;
 }
 }
 
 
 
 
-
-
-
-
-@media (max-width: 765px){
+@media (max-width: 769px){
 
    
 
@@ -509,6 +541,45 @@ h5{
 }
 
 
+.card {
+    width: 90%;
+    height: auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.card-grid{
+    gap: 0;
+    place-self: center;
+    grid: none;
+}
+
+.espacio{
+    grid-template-columns: 1fr;
+}
+
+.card-subtitle{
+    font-size: 80%;
+}
+
+.woman{
+    width: 50%;
+}
+
+.texto{
+    font-size: 90%;
+}
+
+.card-title{
+    font-size: 120%;
+}
+
+.carousel2{
+    display: none;
+}
+
+.carousel3{
+    display: inline;
+}
 
 }
 
@@ -609,7 +680,13 @@ h5{
 
 
 
+@media only screen and (min-width: 550px) and (max-width: 769px ){
 
+.card{
+    width: 70%;
+}
+
+}
 
 
 
@@ -643,8 +720,6 @@ h5{
     justify-content: center;
 }
 }
-
-
 
 
 
