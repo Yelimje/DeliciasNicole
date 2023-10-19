@@ -2,9 +2,9 @@
 //Textos de la parte de Informacion
 
 
-let recorrido_text = "<p class='green mb-0'>Nuestro recorrido</p><div class='mb-3'><span class='green-2'><h1>E</h1></span><h1 style='font-weight: 700;'>xperiencia</h1></div><p class='texto'>Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca querrás dejar de probar.. Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca</p>"
-let soporte_text = "<p class='green mb-0'>Soporte para sus fiestas</p><div class='mb-3'><span class='green-2'><h1>E</h1></span><h1 style='font-weight: 700;'>ventos</h1></div><p class='texto'>Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca querrás dejar de probar..Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca</p>"
-let calidad_text = "<p class='green mb-0'>Nuestra calidad</p><div class='mb-3'><span class='green-2'><h1>I</h1></span><h1 style='font-weight: 700;'>ngredientes</h1></div><p class='texto'>Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca querrás dejar de probar..Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca</p>"
+let recorrido_text = "<p class='green mb-0'>Nuestro recorrido</p><div class='mb-3'><span class='green-2'><h1 style='font-weight: 700;'>E</h1></span><h1 style='font-weight: 700;'>xperiencia</h1></div><p class='texto'>Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca querrás dejar de probar.. Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca</p>"
+let soporte_text = "<p class='green mb-0'>Soporte para sus fiestas</p><div class='mb-3'><span class='green-2'><h1 style='font-weight: 700;'>E</h1></span><h1 style='font-weight: 700;'>ventos</h1></div><p class='texto'>Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca querrás dejar de probar..Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca</p>"
+let calidad_text = "<p class='green mb-0'>Nuestra calidad</p><div class='mb-3'><span class='green-2'><h1 style='font-weight: 700;'>I</h1></span><h1 style='font-weight: 700;'>ngredientes</h1></div><p class='texto'>Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca querrás dejar de probar..Cada bocado te transporta a un mundo lleno de sabores dulces y deliciosos que nunca</p>"
 
 document.getElementById('recorrido-text').innerHTML = recorrido_text;
 document.getElementById('recorrido-text2').innerHTML = recorrido_text;
@@ -56,7 +56,9 @@ document.getElementById('card-6').innerHTML = card2;
 document.getElementById('card-7').innerHTML = card3;
 document.getElementById('card-8').innerHTML = card4;
 
+function openimg(){
 
+}
 
 // const myCarouselElement = document.querySelector('#carouselExampleAutoplaying')
 

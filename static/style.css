@@ -1,6 +1,12 @@
 
 /*........................................................DIV 1...........................................................*/
 
+.page{
+    max-width: 1650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .principal-bg{
     background-image: url("images/bg.jpg");
     background-size: 100% 150%;
@@ -53,8 +59,8 @@
 }
   
 .btn-pink:hover{
-    color: #fefefe;
-    background-color: #d678d2;
+    color: #DB2E86;
+    background-color: transparent;
 }
 
 .nv{
@@ -334,6 +340,37 @@ h1{
 
 
 
+
+/* -------------------------------------------------GALERIA---------------------------------------- */
+
+
+.img-galery{
+    width: 96%;
+}
+
+.div-galery{
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    align-items: self-start;
+    text-align: center;
+}
+
+
+
+    
+
+
+
+
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 
@@ -459,6 +496,9 @@ h1{
 @media (max-width: 769px){
 
    
+.nv:hover{
+    border-bottom: none;
+}
 
 .menu-btn{
     padding: 10px 30px 10px 35px ;
@@ -670,6 +710,15 @@ h5{
     top: -50%;
 }
 
+.btn-pink:hover{
+    color: #DB2E86;
+    background-color: transparent;
+}
+
+.div-galery{
+    grid-template-columns: 0.1fr 3fr 0.1fr;
+}
+
 }
 
 
@@ -685,6 +734,8 @@ h5{
 .card{
     width: 70%;
 }
+
+
 
 }
 
