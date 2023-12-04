@@ -155,6 +155,10 @@ h5{
     line-height: normal;
 }
 
+.c{
+    margin-bottom: 12%;
+}
+
 .mini-heart{
     width: 20px; 
     height: 20px; 
@@ -612,6 +616,11 @@ h1{
 
 .c{
     text-align: -webkit-center;
+    margin-bottom: 5%;
+}
+
+.btn-pink{
+    font-size: 130%;
 }
 
 .navbar-reseñas{
@@ -636,11 +645,6 @@ h1{
     text-align: -webkit-center;
 }
 
-.btn-pink-navbar{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
 
 .mini-heart{
     width: 12px; 
@@ -812,6 +816,11 @@ width: 300px;
     width: 160%;
     top: -50%;
 }
+
+.btn-pink{
+    margin-bottom: 7%;
+}
+
 
 .btn-pink:hover{
     color: #DB2E86;
