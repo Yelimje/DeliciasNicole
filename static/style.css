@@ -22,6 +22,10 @@
     gap: 7px;
 }
 
+.mobile{
+    display: none;
+}
+
 .image-1{
     width: 90%;
 }
@@ -46,7 +50,6 @@
     grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
     padding: 2%;
     font-weight: 700;
-
 }
 
 .nv{
@@ -101,6 +104,10 @@
     background-color: transparent;
 }
 
+.me-33{
+    margin-right: 5%;
+}
+
 /* TITULOS ------------------------------------------------- */
 
 h5{
@@ -121,7 +128,6 @@ h5{
     grid-template-columns: 0.2fr 1.5fr 0.2fr;
     justify-content: center; 
     width: 100%;   
-    /*height: 750px;*/
 }
 
 .principal-title{
@@ -408,6 +414,8 @@ h1{
 
 @media (max-width: 1200px){
 
+  
+
 .green-p{
     font-size: 80%;
 }    
@@ -542,6 +550,23 @@ h1{
 
 @media (max-width: 769px){
 
+.mobile{
+    place-content: center;
+}    
+
+.logo-1{
+    width: 380px;
+    margin-bottom: 2%;
+}    
+
+.mobile{
+    display: flex;
+}  
+
+.nv{
+    font-size: 70%;
+}    
+
 .navbar{
     grid-template-columns: 1fr 1fr 1fr;
 }    
@@ -554,9 +579,40 @@ h1{
     border-bottom: none;
 }
 
+.titles{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .menu-btn{
-    padding: 10px 30px 10px 35px ;
-}    
+    padding: 16px ;
+    display: block;
+    width: 50%;
+    font-size: 130%;
+} 
+
+.me-33{
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+
+.mt-55{
+    margin-top: 15%;
+}
+
+.mb-55{
+    margin-bottom: 15%;
+}
+
+.navbar{
+    padding: 6%;
+    font-size: 150%;
+}
+
+.c{
+    text-align: -webkit-center;
+}
 
 .navbar-reseñas{
     display: none;
@@ -607,7 +663,7 @@ h5{
 
 
 .principal-title{
-    font-size: 215%;
+    font-size: 220%;
 }
 
 
@@ -705,9 +761,17 @@ h5{
 
 @media (max-width: 480px){
 
+.logo-1{
+width: 300px;
+}
+
+.me-33{
+    margin-top: 15%;
+}    
+
 .nv{
     font-weight: 600;
-    font-size: 90%;
+    font-size: 60%;
 }
 
 .middle-logo{
@@ -716,8 +780,8 @@ h5{
 }
 
 .menu-btn{
-    padding: 8px;
-    font-size: 80%;
+    padding: 14px;
+    font-size: 100%;
 }
 
 .margin{
