@@ -582,7 +582,7 @@ h1{
 .titles{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+   
 }
 
 .menu-btn{
