@@ -8,7 +8,7 @@
 }
 
 .principal-bg{
-    background-color: #CFE6E6;
+    background-color: #cfe6e6;
 }
 
 .div-2{
@@ -297,7 +297,8 @@ h1{
 
 
 .div-resenas{
-    background-color: rgb(232, 184, 227);
+    background: rgb(236,161,212);
+background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1) 51%, rgba(207,230,230,1) 74%);
     height: 550px;
 }
 
@@ -553,6 +554,11 @@ h1{
 
 
 @media (max-width: 769px){
+
+.principal-bg{
+    background: rgb(207,230,230);
+background: linear-gradient(168deg, rgba(207,230,230,1) 15%, rgba(241,210,237,1) 51%, rgba(236,161,212,1) 100%);
+}
 
 .mobile{
     place-content: center;
