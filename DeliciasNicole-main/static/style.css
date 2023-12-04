@@ -1,0 +1,914 @@
+
+/*........................................................DIV 1...........................................................*/
+
+.page{
+    max-width: 1650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.principal-bg{
+    background-color: #cfe6e6;
+}
+
+.div-2{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.div-heart{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.mobile{
+    display: none;
+}
+
+.image-1{
+    width: 90%;
+}
+
+.div-image{
+    text-align: center;
+    align-self: center;
+}
+
+
+
+/* barra de navegacion ------------------------------------- */
+
+.h2{
+    color: #DB2E86;
+    font-weight: 700;
+    font-family: Work Sans;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    padding: 2%;
+    font-weight: 700;
+}
+
+.nv{
+    color: #DB2E86;
+    text-decoration: none;
+    font-family: Work Sans;
+    text-align: center;
+
+}
+
+.link-navbar{
+    color: #DB2E86;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 120%;
+    font-family: Work Sans;
+}
+
+.btn-pink{
+    padding: 8px 15px 8px 15px;
+    font-family: Work Sans;
+    font-size: 110%;
+    color: #ffffff;
+    background:#DB2E86;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.margin{
+    margin-bottom: 10%;
+}
+  
+.btn-pink:hover{
+    color: #DB2E86;
+    background-color: transparent;
+}
+
+.btn-white{
+    padding: 8px 15px 8px 15px;
+    font-family: Work Sans;
+    font-size: 110%;
+    color: #DB2E86;
+    background:#ffffff;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+  
+.btn-white:hover{
+    color: #DB2E86;
+    background-color: transparent;
+}
+
+.me-33{
+    margin-right: 5%;
+}
+
+/* TITULOS ------------------------------------------------- */
+
+h5{
+    color: #DB2E86;
+    font-weight: 1000;
+    font-size: 150%;
+    font-family: Work Sans;
+    display: inline;
+}
+
+
+.mini-title{
+    display: block;
+}
+
+.titles{
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    justify-content: center; 
+    width: 100%;   
+}
+
+.principal-title{
+    display: inline;
+    font-weight: 800;
+    font-size: 320%;
+    font-family: 'Chivo', sans-serif;
+}
+
+.pinky{
+    color: #DB2E86;
+}
+
+
+.middle-logo{
+    display: flex;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: -100px;
+}
+
+.subtitle-p{
+    font-size: 120%; 
+    line-height: normal;
+}
+
+.c{
+    margin-bottom: 12%;
+}
+
+.mini-heart{
+    width: 20px; 
+    height: 20px; 
+    display: inline; 
+}
+
+.menu-btn{
+    padding: 15px 40px 15px 40px ;
+    border-radius: 28px;
+}
+
+
+
+
+
+
+/*........................................................INFORMACION...........................................................*/
+
+
+
+
+
+
+.div-info{
+    background-image: url("images/fondo-ponque.jpg");  
+}
+
+.grid-info{
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    justify-content: center;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+     
+}
+
+.green{
+    font-weight: 600;
+    color: #ACD1D1;
+}
+
+.green-p{
+    color: #DB2E86;
+    font-weight: 700;
+    font-size: 90%;
+    text-align: left;
+}
+
+.mini-img-woman{
+    width: 100%;
+}
+
+.resenas-grid{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.green-2{
+    color: #08BFBF;
+    font-weight: 700;
+}
+
+h1{
+    display: inline;
+}
+
+.mini-info{
+    width: 80%;
+    text-align: justify;
+}
+
+
+.bg-cg{
+    background-color: #FFFFFF;
+}
+
+.carousel{
+    display: none;
+}
+
+
+.carousel-item{
+    text-align: -webkit-center;
+}
+
+.mini-info-carousel{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    text-align: justify;
+}
+
+.carousel-control-next-icon1 {
+    background-image: url("images/flecha-derecha.png");
+    height: 25px;
+    width: 15px;
+    background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon1 {
+    background-image: url("images/flecha-izquierda.png");
+    height: 25px;
+    width: 15px;
+    background-size: 100% 100%;
+}
+
+
+.grid-info{
+    position: relative;
+    top: -35px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #26b07b;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+/*........................................................RESEÑAS..........................................................*/
+
+
+
+
+
+.div-resenas{
+    background: rgb(236,161,212);
+background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1) 51%, rgba(207,230,230,1) 74%);
+    height: 550px;
+}
+
+.pastel-utencilios{
+    width: 50%;
+    position: absolute;
+    display: none;
+    
+}
+
+.mini-resenas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    place-self: center;
+    gap: 3rem;
+}
+
+.pink{
+    color: #DB2E86;
+    font-weight: 700;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.izquierda{
+    place-self: flex-start;
+}
+
+.derecha{
+    place-self: flex-end;
+}
+
+
+.espacio{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+.card{
+    width: 455px; 
+    height: 15rem;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1.2fr 4fr;
+
+}
+
+.card-subtitle{
+    font-weight: 600;
+    color: #b5379c;
+}
+
+.woman{
+    width: 4rem;
+    justify-self: center;
+}
+
+
+.carousel3{
+    display: none;
+}
+
+
+
+
+/* -------------------------------------------------GALERIA---------------------------------------- */
+
+
+.img-galery{
+    width: 96%;
+}
+
+.div-galery{
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    align-items: self-start;
+    text-align: center;
+}
+
+
+ 
+
+.div-end{
+    background-color:#8dd3d5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+    
+
+
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+@media (max-width: 1200px){
+
+  
+
+.green-p{
+    font-size: 80%;
+}    
+
+.green{
+    font-size: 80%;
+}    
+
+h1{
+    font-size: 160%;
+}
+
+.text-infos{
+    font-size: 80%;
+}
+
+.mini-info{
+    width: 85%;
+    text-align: justify;
+}
+
+.texto{
+    font-size: 95%;
+}
+
+.woman{
+    width: 3rem;
+}
+
+.card {
+    height: auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.div-resenas{
+    height: 500px;
+}
+
+.principal-title{
+    font-size: 285%;
+}
+
+.middle-logo{
+    height: 140px;
+    top: -70px;
+}
+
+}
+
+
+@media (min-width: 1600px){
+
+.mini-info{
+    width: 70%;
+}
+
+.card{
+    width: 600px;
+    height: 17rem;
+}
+
+.subtitle-p{
+    font-size: 150%;
+}
+
+.link-navbar{
+    font-size: 150%;
+}
+
+.principal-title{
+    font-size: 380%;
+}
+
+
+.card-title{
+    font-size: 160%;
+}
+
+
+.texto{
+    font-size: 120%;
+}
+
+}
+
+
+
+@media (max-width: 1050px){
+
+.menu-btn {
+    padding: 10px 30px 10px 30px;
+    border-radius: 28px;
+}
+
+.navbar{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.texto{
+    font-size: 90%;
+}
+
+.card-title{
+    font-size: 120%;
+}
+
+.card-subtitle{
+    font-size: 90%;
+}
+
+.card{
+    width: 100%;
+}
+
+.espacio{
+    grid-template-columns: 0.3fr 6fr 0.3fr;
+}
+
+.principal-title{
+    font-size: 210%;
+}
+
+.subtitle-p{
+    font-size: 100%;
+}
+
+}
+
+
+
+
+@media (max-width: 769px){
+
+.principal-bg{
+    background: rgb(207,230,230);
+background: linear-gradient(168deg, rgba(207,230,230,1) 15%, rgba(241,210,237,1) 51%, rgba(236,161,212,1) 100%);
+}
+
+.mobile{
+    place-content: center;
+}    
+
+.logo-1{
+    width: 380px;
+    margin-bottom: 2%;
+}    
+
+.mobile{
+    display: flex;
+}  
+
+.nv{
+    font-size: 70%;
+}    
+
+.navbar{
+    grid-template-columns: 1fr 1fr 1fr;
+}    
+
+.div-heart{
+    display: none;
+}
+
+.nv:hover{
+    border-bottom: none;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.menu-btn{
+    padding: 16px ;
+    display: block;
+    width: 50%;
+    font-size: 130%;
+} 
+
+.me-33{
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+
+.mt-55{
+    margin-top: 15%;
+}
+
+.mb-55{
+    margin-bottom: 15%;
+}
+
+.navbar{
+    padding: 6%;
+    font-size: 150%;
+}
+
+.c{
+    text-align: -webkit-center;
+    margin-bottom: 5%;
+}
+
+.btn-pink{
+    font-size: 130%;
+}
+
+.navbar-reseñas{
+    display: none;
+}
+
+.container{
+    margin: auto;
+}
+
+.mini-navbar{
+  height: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div-2{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.sp{
+    text-align: -webkit-center;
+}
+
+
+.mini-heart{
+    width: 12px; 
+    height: 12px; 
+}
+
+.middle-logo{
+    height: 140px;
+    top: -70px;
+}
+
+.dd{
+    display: none;
+}
+
+h5{
+    font-size: initial;
+}
+
+
+
+.principal-title{
+    font-size: 220%;
+}
+
+
+.subtitle-p{
+    font-size: 100%;
+    width: 80%;
+}
+
+.grid-info{
+    display: flex;
+}
+
+.carousel{
+    display: inline;
+}
+
+.info{
+    display: none;
+}
+
+
+.pastel-utencilios{
+    height: 80%;
+    width: 140%;
+    top: -40%;
+}
+
+
+.card {
+    width: 90%;
+    height: auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.card-grid{
+    gap: 0;
+    place-self: center;
+    grid: none;
+}
+
+.espacio{
+    grid-template-columns: 1fr;
+}
+
+.card-subtitle{
+    font-size: 80%;
+}
+
+.woman{
+    width: 50%;
+}
+
+.texto{
+    font-size: 90%;
+}
+
+.card-title{
+    font-size: 120%;
+}
+
+.carousel2{
+    display: none;
+}
+
+.carousel3{
+    display: inline;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+.logo-1{
+width: 300px;
+}
+
+.me-33{
+    margin-top: 15%;
+}    
+
+.nv{
+    font-weight: 600;
+    font-size: 60%;
+}
+
+.middle-logo{
+    height: 100px;
+    top: -50px;
+}
+
+.menu-btn{
+    padding: 14px;
+    font-size: 100%;
+}
+
+.margin{
+    margin-bottom: 8%;
+}
+
+.principal-title{
+    font-size: 160%;
+}    
+
+
+.mini-logo{
+    display: none;
+}
+
+
+.subtitle-p{
+    font-size: 90%; 
+    width: 90%;
+}
+
+.p-info{
+    font-size: 70%;
+}
+
+
+.pastel-utencilios{
+    width: 160%;
+    top: -50%;
+}
+
+.btn-pink{
+    margin-bottom: 7%;
+}
+
+
+.btn-pink:hover{
+    color: #DB2E86;
+    background-color: transparent;
+}
+
+.div-galery{
+    grid-template-columns: 0.1fr 3fr 0.1fr;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 550px) and (max-width: 769px ){
+
+.card{
+    width: 70%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 575px ){
+
+
+.btn-pink-navbar{
+    font-size: 100%;
+    font-weight: 200;
+    padding: 0;
+    background: none;
+    color: #DB2E86;
+    justify-content: center;
+}
+
+.btn-pink:hover{
+    background-color: transparent;
+    color: #DB2E86;
+}
+
+.mini-logo{
+    justify-content: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 319px){
+
+
+.principal-title{
+    font-size: 140%;
+}
+
+}
