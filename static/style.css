@@ -614,8 +614,8 @@ background: linear-gradient(168deg, rgba(207,230,230,1) 15%, rgba(241,210,237,1)
 }
 
 .img-info{
-    display: inline;
-
+    display: flex;
+    align-items: center;
 }
 
 .navbar{
