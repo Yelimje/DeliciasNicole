@@ -99,6 +99,10 @@
     text-decoration: none;
 
 }
+
+.tarjetas2{
+    display: none;
+}
   
 .btn-white:hover{
     color: #DB2E86;
@@ -180,7 +184,9 @@ h5{
 
 
 
-
+.tarjetas{
+    display: none;
+}
 
 
 .div-info{
@@ -565,6 +571,7 @@ background: linear-gradient(168deg, rgba(207,230,230,1) 15%, rgba(241,210,237,1)
     place-content: center;
 }    
 
+
 .logo-1{
     width: 380px;
     margin-bottom: 2%;
@@ -576,7 +583,40 @@ background: linear-gradient(168deg, rgba(207,230,230,1) 15%, rgba(241,210,237,1)
 
 .nv{
     font-size: 70%;
-}    
+}  
+
+.lineh{
+    line-height: 17px;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-width: thin;
+    margin-bottom: 5%;
+    background-color: #ECF4F3;
+}
+
+
+.tarjetas2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-width: thin;
+    margin-bottom: 5%;
+    background-color: #F7EAFA;
+}
+
+
+.img-info-esp{
+    height: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.img-info{
+    display: inline;
+
+}
 
 .navbar{
     grid-template-columns: 1fr 1fr 1fr;
@@ -671,8 +711,6 @@ h5{
     font-size: initial;
 }
 
-
-
 .principal-title{
     font-size: 220%;
 }
@@ -684,7 +722,7 @@ h5{
 }
 
 .grid-info{
-    display: flex;
+    display: none;
 }
 
 .carousel{
@@ -727,8 +765,10 @@ h5{
     width: 50%;
 }
 
+
 .texto{
     font-size: 90%;
+    margin-bottom: 1%;
 }
 
 .card-title{
