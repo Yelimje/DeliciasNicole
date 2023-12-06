@@ -297,11 +297,16 @@ h1{
 
 /*........................................................RESEÑAS..........................................................*/
 
-
+.resena-title{
+    font-weight: 600; 
+    color: #421142;
+    font-size: 1.7rem;
+}
 
 .div-creditos{
     background: rgb(236,161,212);
     background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1) 51%, rgba(207,230,230,1) 74%);    
+    padding: 2%;
 }
 
 .div-resenas{
@@ -366,6 +371,7 @@ background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1)
 
 }
 
+
 .card-subtitle{
     font-weight: 600;
     color: #b5379c;
@@ -393,6 +399,10 @@ background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1)
     
 }
 
+.div-galery{
+    padding: 8%;
+}
+
 
 .galery{
     display: grid;
@@ -400,11 +410,19 @@ background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1)
     place-items: center;
     align-items: self-start;
     text-align: center;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
 }
 
 
- 
+.sub-2{
+    text-align: center;
+}
+
+.galeria{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #5e2b51;
+}
 
 .div-end{
     background-color:#8dd3d5;
@@ -421,9 +439,7 @@ background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1)
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| RESPONSIVE ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 
 
-@media (max-width: 1200px){
-
-  
+@media (max-width: 1200px){ 
 
 .green-p{
     font-size: 80%;
@@ -470,6 +486,10 @@ h1{
 .middle-logo{
     height: 140px;
     top: -70px;
+}
+
+.galeria{
+    font-size: 1.5rem;
 }
 
 }
@@ -550,6 +570,10 @@ h1{
 
 .subtitle-p{
     font-size: 100%;
+}
+
+.galeria{
+    font-size: 1.2rem;
 }
 
 }
@@ -693,6 +717,9 @@ background: linear-gradient(168deg, rgba(207,230,230,1) 15%, rgba(241,210,237,1)
     text-align: -webkit-center;
 }
 
+.galeria{
+    font-size: 1rem;
+}
 
 .mini-heart{
     width: 12px; 
@@ -840,6 +867,10 @@ width: 300px;
     font-size: 100%;
 }
 
+.resena-title{
+    font-size: 1.5rem;
+}
+
 .margin{
     margin-bottom: 8%;
 }
@@ -883,9 +914,16 @@ width: 300px;
     grid-template-columns: 0.1fr 3fr 0.1fr;
 }
 
+.creditos{
+    font-size: 0.7rem;
+}
+
+.galeria{
+    font-size: 0.7rem;
 }
 
 
+}
 
 
 
@@ -898,9 +936,7 @@ width: 300px;
 .card{
     width: 70%;
 }
-
-
-
+ 
 }
 
 
@@ -935,15 +971,6 @@ width: 300px;
     justify-content: center;
 }
 }
-
-
-
-
-
-
-
-
-
 
 
 
