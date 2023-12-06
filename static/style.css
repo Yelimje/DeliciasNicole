@@ -408,6 +408,12 @@ background: linear-gradient(138deg, rgba(236,161,212,1) 15%, rgba(241,210,237,1)
     padding: 8%;
 }
 
+.row-galery{
+    display: grid;
+    height: 100%;
+    align-content: space-between;
+    justify-items: center;
+}
 
 .galery{
     display: grid;
