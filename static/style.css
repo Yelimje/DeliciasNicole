@@ -84,7 +84,7 @@
   
 .btn-pink:hover{
     color: #DB2E86;
-    background-color: transparent;
+    background-color: white;
 }
 
 .btn-white{
@@ -103,8 +103,8 @@
 }
   
 .btn-white:hover{
-    color: #DB2E86;
-    background-color: transparent;
+    color: #ffffff;
+    background:#DB2E86;
 }
 
 .me-33{
@@ -529,6 +529,7 @@ h1{
 .card{
     width: 600px;
     height: 17rem;
+    grid-template-columns: 1fr 4fr;
 }
 
 .subtitle-p{

@@ -23,28 +23,28 @@ let card1 = `<img class="woman mt-3" src="static/images/woman-1.png" alt="">
             <div class="card-body  pt-3 ps-1 pe-0 pb-0">
             <h5 class="card-title">María P.</h5>
             <h6 class="card-subtitle mt-1 mb-4">Ordenó caramelos de cianuro</h6>
-            <p class="texto me-3 mb-3 pb-5">Me gustó porque sabía a caramelos y el toque de cianuro era para morirse. Se los recomendaré a todos mis familiares, lo mejor que he probado.</p>
+            <p class="texto me-4 pb-5">Me gustó porque sabía a caramelos y el toque de cianuro era para morirse. Se los recomendaré a todos mis familiares, lo mejor que he probado.</p>
             </div>`
             
 let card2 = `<img class="woman mt-3" src="static/images/woman-2.png" alt="">
             <div class="card-body pt-3 ps-1 pe-0 pb-0">
             <h5 class="card-title">María P.</h5>
             <h6 class="card-subtitle mt-1 mb-4">Ordenó chicharrón</h6>
-            <p class="texto me-3 mb-3 pb-5">Demasiado bueno, siempre voy a preferirlos. Desde la primera vez que lo probé quede encantada, la pido cada año en diciembre para comer chicharron en familia.</p>
+            <p class="texto me-4 pb-5">Demasiado bueno, siempre voy a preferirlos. Desde la primera vez que lo probé quede encantada, la pido cada año en diciembre para comer chicharron en familia.</p>
             </div>`
             
 let card3 = `<img class="woman mt-3" src="static/images/woman-1.png" alt="">
             <div class="card-body pt-3 ps-1 pe-0 pb-0">
             <h5 class="card-title">María P.</h5>
             <h6 class="card-subtitle mt-1 mb-4">Ordenó puré de papa</h6>
-            <p class="texto me-3 mb-3 pb-5">Mejor que el puré de manzanas y el de pera, no hay igual. Puré es una palabra graciosa si la dices varias veces, bueno chao.</p>
+            <p class="texto me-4 pb-5">Mejor que el puré de manzanas y el de pera, no hay igual. Puré es una palabra graciosa si la dices varias veces, bueno chao.</p>
             </div>`
             
 let card4 = `<img class="woman mt-3" src="static/images/woman-2.png" alt="">
             <div class="card-body pt-3 ps-1 pe-0 pb-0">
             <h5 class="card-title">María P.</h5>
             <h6 class="card-subtitle mt-1 mb-4">Ordenó camarones con queso</h6>
-            <p class="texto me-3 mb-3 pb-5">Excelente combinación, lo pido en cada oportunidad que tengo para mi, mis sobrinos y mis nietos... Todos quedan encantados.</p>
+            <p class="texto me-4 pb-5">Excelente combinación, lo pido en cada oportunidad que tengo para mi, mis sobrinos y mis nietos... Todos quedan encantados.</p>
             </div>`
 
 document.getElementById('card-1').innerHTML = card1;
